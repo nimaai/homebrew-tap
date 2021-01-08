@@ -6,7 +6,7 @@ class ClojureAT190397 < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "openjdk"
   depends_on "rlwrap"
 
   def install
